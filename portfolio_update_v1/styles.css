@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #000000;
 }
 /* Link Styles */
 
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/rsz_cowboy_background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -93,13 +93,13 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: #f7f5f0;
+  border-bottom: 8px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #181DAC;
 }
 
 ul.skills {
@@ -199,6 +199,7 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
+    color: #f7f5f0;
     max-width: 1200px;
     margin: 40px auto;
   }
